@@ -1,6 +1,6 @@
 # Cinema Room
 
-An Webapp that plays with real-time concurrence scenarios
+A Webapp that plays with real-time concurrency scenarios
 
 ### Frontend
 
@@ -21,5 +21,5 @@ Made using nginx, to route requests between frontend and backend apps
 
 This repository was made without any AI assistance. Even this readme was written entirely by hand.
 
-This project was build to study this stack and play with race conditions, being showcased at my (portfolio)[https://caiohenvieira.com.br].
+This project was built to study this stack and play with race conditions, being showcased at my [portfolio](https://caiohenvieira.com.br).
 Feel free to contact me.
