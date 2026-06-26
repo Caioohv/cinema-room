@@ -1,6 +1,6 @@
 # Cinema Room
 
-A Webapp that plays with real-time concurrency scenarios
+A monorepo with a webapp that plays with real-time concurrency scenarios
 
 ### Frontend
 
