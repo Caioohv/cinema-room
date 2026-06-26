@@ -23,3 +23,7 @@ This repository was made without any AI assistance. Even this readme was written
 
 This project was built to study this stack and play with race conditions, being showcased at my [portfolio](https://caiohenvieira.com.br).
 Feel free to contact me.
+
+# What i Learned
+
+I used bun instead of node. I was interested on trying it, because it is fast, especially from the websocket benchmark.
