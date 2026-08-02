@@ -20,3 +20,17 @@ This is just a sandbox project.
 **Communication**: Http Rest + Websocket
 **Data**: PostgreSQL
 **Cache**: Redis
+
+### Registered decisions
+
+1. PostgreSQL flags:
+> `log_lock_waits=on` - the server logs that a transaction waited more then the `deadlock_timeout` for a lock, so it will be easier to identify.
+> 1.2: `deadlock_timeout=1s` - just defines when the server suspects about a deadlock, and `log_min_duration_statement`will list every query over 200ms 
+
+2. Database design:
+> Seats shouldnt have status, because furniture doesn't change. What changes is the existence of a reserve pointing to it.
+> With this design, we can audit past reserves and help dealing with race conditions.
+
+3. Not using an ORM:
+> Just to make the project simple and focused. The same reason applies to not having a serious auth or payment integration.
+
