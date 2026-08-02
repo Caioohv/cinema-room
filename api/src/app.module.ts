@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { InfraModule } from './infra/infra.module'
 
-@module({
+@Module({
   imports: [InfraModule]
-});
+})
 
 export class AppModule {}
