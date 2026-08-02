@@ -18,7 +18,7 @@ This is just a sandbox project.
 **Front-end**: React.js + Shadcn/ui
 **Back-end**: Node.js + Nest.js
 **Communication**: Http Rest + Websocket
-**Data**: PostgreSQL
+**Data**: PostgreSQL + Kysely
 **Cache**: Redis
 
 ### Registered decisions
@@ -32,5 +32,5 @@ This is just a sandbox project.
 > With this design, we can audit past reserves and help dealing with race conditions.
 
 3. Not using an ORM:
-> Just to make the project simple and focused. The same reason applies to not having a serious auth or payment integration.
+> Just to make the project simple and focused. The same reason applies to not having a serious auth or payment integration. Using Kysely brings the ease to create queries without having to sacrificate types and simplicity.
 

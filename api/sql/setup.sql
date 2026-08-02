@@ -4,7 +4,7 @@ drop table if exists room;
 
 create table room (
   id    int primary key,
-  nome  text not null
+  name  text not null
 );
 
 create table seats (
